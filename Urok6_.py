@@ -63,6 +63,8 @@ spisok.index(max)
 spisok.remove(max)
 spisok.insert(int,new_max)
 print(spisok)
-
-    
-
+spisok2=[]
+for e in spisok:
+    spisok2.append(abs(e))
+print(spisok2.sort())
+print(spisok2.sort(reverse=True))
