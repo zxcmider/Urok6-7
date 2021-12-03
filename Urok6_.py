@@ -68,3 +68,51 @@ for e in spisok:
     spisok2.append(abs(e))
 print(spisok2.sort())
 print(spisok2.sort(reverse=True))
+
+
+l = ['крот','белка','выхухоль']
+nl=[]
+max=0
+for i in range(len(l)):
+    x=len(l[i])
+    if x>max:
+        max=x
+for i in range(len(1)):
+    tl=l[i]
+    nl.append(tl.ljust(max,'_'))
+print(nl)
+
+from random import *
+s1=['крот', 'белка', 'выхухоль']
+s2=['a', 'aa', 'aaa', 'aaaa', 'aaaaa']
+s3=['qweasdqweas', 'q', 'rteww', 'ewqqqqq']               
+ss=[s1,s2,s3]
+N=0
+while N<len(ss):
+    print(ss[N])
+    max=0
+    sN_=[]
+    for s in ss[N]:
+        max=len(s)
+        if pikkus>max: max=pikkus
+    for s in ss[N]:
+        sN.append(s.ljust(max,"_")
+ print(sN_)
+ N+=1
+
+abc=["A","B","C","D"]
+
+dub=[x for x in abc if abc.count(x)>1]# kui >1,siis dublikatid
+dub=list(set(dub))
+print(dub) #["A","B","C","D"]
+
+
+
+
+
+
+
+nimi=int(input("Sisesta nimi: ")
+    nimi.upper()
+        print("Tere",nimi)
+    
